@@ -96,13 +96,7 @@ public class stepDefination extends Utils {
 	@Given("DeletePlace Payload")
 	public void delete_place_payload() throws IOException {
 	    req = given().spec(requestSpecification()).body(tdb.deletePlacePayload(placeId));
-		
-		System.out.println("hello world");
-		
-		System.out.println("hello world");
-		
-		System.out.println("hello world");
-		System.out.println("hello world");
+
 	   
 	}
 
