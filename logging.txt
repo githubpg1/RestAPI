@@ -1,0 +1,115 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -97.11777,
+        "lng": 99.22981
+    },
+    "accuracy": 50,
+    "name": "kate bush",
+    "phone_number": "9999999123",
+    "address": "abra kadabr",
+    "types": [
+        "shoe park",
+        "water park"
+    ],
+    "website": "www.justcookkt.com",
+    "language": "Frensch"
+}
+HTTP/1.1 200 OK
+Date: Sat, 02 Jul 2022 14:58:58 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "62540febf99b1b0231ac32cda5d48ddd",
+    "scope": "APP",
+    "reference": "9406606c47bba3377b312c67ddc982c39406606c47bba3377b312c67ddc982c3",
+    "id": "9406606c47bba3377b312c67ddc982c3"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=62540febf99b1b0231ac32cda5d48ddd
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=62540febf99b1b0231ac32cda5d48ddd
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 02 Jul 2022 14:58:59 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 230
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-97.11777",
+        "longitude": "99.22981"
+    },
+    "accuracy": "50",
+    "name": "kate bush",
+    "phone_number": "9999999123",
+    "address": "abra kadabr",
+    "types": "shoe park,water park",
+    "website": "www.justcookkt.com",
+    "language": "Frensch"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "62540febf99b1b0231ac32cda5d48ddd"
+}
+HTTP/1.1 200 OK
+Date: Sat, 02 Jul 2022 14:58:59 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
